@@ -1,0 +1,219 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body { font-size:12px; color:#666; font-family:Verdana, Microsoft YaHei, Simsun; background:#fff; line-height:24px; }
+fieldset, img { border:0; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; } /*//禁用了文本的拖拉，尤其在谷歌下*/
+p{ text-align:justify; text-justify:distribute;} /*//为了使文本段落左右两边对齐*/
+
+a { color: #666; text-decoration:none; }
+a:hover { color: #f60; text-decoration:none; }
+
+.gundong{
+	position: relative;
+	width: 1200px;
+	height: 96px;
+	margin:50px auto;
+	padding:20px 0;
+	overflow: hidden;
+	background: rgba(0,0,0,.7);
+}
+.gundong ul{
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 4200px;
+	height: 96px;
+}
+.gundong ul li{
+	float: left;
+	width: 180px;
+	height:70px;
+	text-align: center;
+	margin-right: 20px;
+}
+.gundong ul li p{
+	color: #fff;
+	width: 180px;
+	height: 26px;
+	line-height: 26px;
+}
+
+/*********轮播**********/
+.lunbo{
+	position: relative;
+	width:700px;
+	height: 410px;
+	overflow: hidden;
+}
+#lun{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 4200px;
+	height: 410px;	
+}
+#lun li{
+	float: left;
+	width: 700px;
+	height: 410px;
+}
+#bo{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 700px;
+	height: 40px;	
+}
+#bo li{
+	float: left;
+	width: 110px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	background: #333;
+	margin-right:8px;
+	border-top:2px solid transparent;
+}
+#bo li:last-child{
+	margin-right: 0;
+}
+#bo .on{
+	color: #f60;
+	border-top:2px solid #f60;
+}
+
+
+.box{
+	position: relative;
+	width: 900px;
+	height: 410px;
+	margin:50px auto;
+	padding:8px;
+	box-shadow: 0 1px 11px 1px;
+	border:1px solid #eee;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+	width: 700px;
+	height: 410px;
+}
+.left ul{
+	width: 200px;
+	height: 410px;
+	background: rgba(0,0,0,.7);
+}
+.left ul li{
+	width: 199px;
+	height:40px;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	text-indent: 32px;
+	color: #fff;
+	line-height: 40px;
+}
+.left ul li a{
+	color: #fff;
+}
+.left ul li a:hover{
+	color:#e4393c;
+}
+.active{
+	color: #f60;
+	background: rgba(0,0,0,.3);
+}
+.left ul li:last-child{
+	border-bottom:1px solid #555;
+}
+.one{
+	display: none;
+	height: 410px;
+	width:700px; 
+	background: #fff;
+}
+.one .lf{
+	float:left;
+	width:550px;
+	height:410px;
+}
+
+.one .top{
+	width: 550px;
+	height: 20px;
+	margin-left:20px;
+	margin-bottom:6px;
+}
+.one .top li{
+	float: left;
+	width:80px;
+	height: 20px;
+	line-height: 20px;
+	color:#fff;
+	margin-right:10px;
+	background: #6e6568 url(../img/jian1.png) no-repeat right;
+	text-align: center;
+}
+.d-l{
+	float: left;
+	width: 50px;
+	color:#000;
+	margin-left:20px;
+	text-align: right;
+	padding-right:12px;
+	background: #fff url(../img/rit.png) no-repeat right;
+}
+.d-r{
+	width:460px;
+	margin-right:4px;
+	margin-left:86px;
+	border-bottom: 1px solid #eee;
+}
+#d1 {
+	color:#eee;
+	position: absolute;
+	top: 8px;
+	right:8px;
+
+}
+.one .rt{
+	float:right;
+	width:150px;
+	height:410px;
+}
+.one .rt ul{
+	margin: 20px 0 10px 0;
+	width: 150px;
+	height: 140px;
+}
+.one .rt ul li{
+	float: left;
+	width:74px;
+	height:34px;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+}
+.one .rt ul li img{
+	width:74px;
+	height:34px;
+}
+.one .rt ul li:nth-child(even){
+/*	border-right:0;
+*/}
+.one .rt a{
+	float: left;
+	display: inline-block;
+	width:150px;
+	height:120px;
+	border-bottom: 1px solid #fff;
+}
+.one .rt a>img{
+	width:150px;
+	height:120px;
+}
